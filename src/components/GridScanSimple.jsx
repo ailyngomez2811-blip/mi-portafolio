@@ -305,7 +305,6 @@ export default function GridScanSimple({
   const lookVel = useRef(new THREE.Vector2(0, 0));
 
   const MAX_SCANS = 8;
-  const scanStartsRef = useRef([]);
 
   const s = THREE.MathUtils.clamp(sensitivity, 0, 1);
   const skewScale = THREE.MathUtils.lerp(0.06, 0.2, s);
