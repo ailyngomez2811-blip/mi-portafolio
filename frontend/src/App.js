@@ -6,6 +6,7 @@ import Habilidades from './components/Habilidades';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import GridScanSimple from './components/GridScanSimple';
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Contacto />
         <Footer />
       </div>
+      <Chatbot />
     </div>
   );
 }
